@@ -1,0 +1,22 @@
+{
+  "name": "node-auth-practice",
+  "version": "1.0.0",
+  "description": "Practice application to learn Node.js with JWT  Authentication",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/index.js",
+    "server": "nodemon backend/index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
